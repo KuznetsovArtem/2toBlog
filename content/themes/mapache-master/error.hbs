@@ -18,11 +18,12 @@
 			</div>
 			<div class="errorPage-wrap">
 				<div id="emoji" class="errorPage-emoji">(>_<)</div>
-				<div class="errorPage-text">Unfortunately, this page doesn't exist</div>
+				<div class="errorPage-text">К сожалению, такой страницы нет.</div>
+				<a class="errorPage-moresmile" href="#" onclick="window.location.reload()" class="errorPage-text">еще смайл</a>
 			</div>
 		</div>
 		<script type="text/javascript">
-			var emoji = ['(·.·)', '(>_<)', '(^-^*)', '(≥o≤)', '(˚Δ˚)b', '(·_·)', '(;-;)']
+			var emoji = ['(·.·)', '(>_<)', '(^-^*)', '(≥o≤)', '(˚Δ˚)b', '(·_·)', '(;-;)'];
 			var emojiRandom = emoji[Math.floor(Math.random()*emoji.length)];
 			document.getElementById('emoji').innerHTML = emojiRandom;
 		</script>
