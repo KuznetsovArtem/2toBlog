@@ -1,8 +1,10 @@
 {
   "production" : {
-    "test": 1000
+    "login" : "postmaster@sandbox2186c80d243f4f89b8af29a2a6c59646.mailgun.org",
+    "pass" : "98ad0702a828a79a75e9f4dd83a8eb75"
   },
   "dev": {
-
+    "login" : "postmaster@sandbox2186c80d243f4f89b8af29a2a6c59646.mailgun.org",
+    "pass" : "98ad0702a828a79a75e9f4dd83a8eb75"
   }
 }
