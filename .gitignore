@@ -1,8 +1,7 @@
 node_modules
 content/images
 content/data
-
-config/mail.json
+config/
 
 # Logs
 logs

@@ -1,6 +1,6 @@
 {
   "production" : {
-
+    "test": 1000
   },
   "dev": {
 
